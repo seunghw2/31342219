@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 31342219
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+    jdbc:
+      initialize-schema: update
+  config:
+    import:
+      - application-datasource.yml
+      - application-server.yml
